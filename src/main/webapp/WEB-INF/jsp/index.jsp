@@ -11,7 +11,7 @@
 </head>
 <body>
 	<s:form action="test/helloWorld">
-		<s:textfield label="What is your name naaaaaaaa ?" name="name" />
+		<s:textfield label="What is your name za ?" name="name" />
 		<s:textfield label="What is the date?" name="dateNow" />
 		<s:submit />
 	</s:form>
