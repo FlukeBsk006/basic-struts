@@ -29,8 +29,8 @@ public class VerifyAction extends ActionSupport {
         String us = "admin";
         String pw = "1234";
         if(this.username.trim().equals(us) && this.password.trim().equals(pw)){
-            return "success";
+            return SUCCESS;
         }
-        return "error";
+        return ERROR;
     }
 }
