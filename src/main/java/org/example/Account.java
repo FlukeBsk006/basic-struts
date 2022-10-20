@@ -52,8 +52,5 @@ public class Account extends ActionSupport {
         this.email = email;
     }
 
-    public String execute() throws  Exception{
-        return SUCCESS;
-    }
 }
 

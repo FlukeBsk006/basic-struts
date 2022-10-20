@@ -22,7 +22,4 @@ public class Profile extends ActionSupport {
         this.fd = fd;
     }
 
-    public String execute() throws  Exception{
-        return SUCCESS;
-    }
 }
