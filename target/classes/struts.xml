@@ -37,5 +37,32 @@
             <result name="input">/WEB-INF/jsp/index.jsp</result>
             <result name="success">/WEB-INF/jsp/helloWorld.jsp</result>
         </action>
+
+        <action name="profile">
+            <result>/WEB-INF/jsp/profile.jsp</result>
+        </action>
+
+        <action name="helloProfile" class="org.example.Profile">
+            <result name="success">/WEB-INF/jsp/helloProfile.jsp</result>
+        </action>
+
+
+        <action name="account">
+            <result>/WEB-INF/jsp/account.jsp</result>
+        </action>
+        <action name="userAccount" class="org.example.Account">
+            <result name="success">/WEB-INF/jsp/userAccount.jsp</result>
+        </action>
+
     </package>
+
+<!--    <package name="acc" namespace="/acc">-->
+<!--        <action name="account">-->
+<!--            <result>/WEB-INF/jsp/account.jsp</result>-->
+<!--        </action>-->
+<!--        <action name="userAccount" class="org.example.Account">-->
+<!--            <result name="success">/WEB-INF/jsp/userAccount.jsp</result>-->
+<!--        </action>-->
+<!--    </package>-->
+
 </struts>

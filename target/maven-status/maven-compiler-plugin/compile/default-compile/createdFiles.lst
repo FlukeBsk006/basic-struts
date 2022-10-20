@@ -1,4 +1,6 @@
 org\example\VerifyAction.class
+org\example\Profile.class
+org\example\Account.class
 org\example\HelloWorldAction.class
 org\example\MessageAction.class
 org\example\DateConverter.class
