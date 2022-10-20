@@ -10,7 +10,6 @@
 	<s:head />
 </head>
 <body>
-<h1>test</h1>
 	<s:form action="test/helloWorld">
 		<s:textfield label="What is your name?" name="name" />
 		<s:textfield label="What is the date?" name="dateNow" />
